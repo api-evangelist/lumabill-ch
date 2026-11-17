@@ -1,4 +1,4 @@
-# lumabill-ch
+# LumaBill
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,145 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lumabill-ch is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lumabill.ch/
+LumaBill is a Swiss SaaS platform offering invoicing and accounting software tailored for freelancers, sole proprietors, and small businesses. It provides QR‑invoice generation, double‑entry bookkeeping, bank import, AI‑assisted expense categorisation, and integrates with Stripe for online payments. All data is processed and stored in Switzerland, ensuring compliance with local data protection and tax regulations. The service is browser‑based, with optional cloud backup, and emphasizes simplicity without heavy enterprise overhead.
+
+**Areas:** Accounting · Invoicing · SaaS · Switzerland · Small Business
+
+## LumaBill on APIs.io
+
+Everything profiled for LumaBill is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lumabill-ch/](https://apis.io/providers/lumabill-ch/)** — or go straight to one of the APIs or properties below.
+
+### APIs (17)
+
+- [LumaBill Account API](https://apis.io/apis/lumabill-ch/lumabill-ch-account-api/) — Read-only access to the account (billing, plan, modules, AI quota)
+- [LumaBill Bank Accounts API](https://apis.io/apis/lumabill-ch/lumabill-ch-bank-accounts-api/) — Bank accounts linked to your profile
+- [LumaBill Bank Imports API](https://apis.io/apis/lumabill-ch/lumabill-ch-bank-imports-api/) — Import bank statement files (CAMT.053 XML or CSV)
+- [LumaBill Catalog API](https://apis.io/apis/lumabill-ch/lumabill-ch-catalog-api/) — Reusable products and services for invoice line items
+- [LumaBill Chart of Accounts API](https://apis.io/apis/lumabill-ch/lumabill-ch-chart-of-accounts-api/) — Swiss chart of accounts (Kontenplan KMU) lookup
+- [LumaBill Clients API](https://apis.io/apis/lumabill-ch/lumabill-ch-clients-api/) — Manage your client (customer) address book
+- [LumaBill Expenses API](https://apis.io/apis/lumabill-ch/lumabill-ch-expenses-api/) — Track business expenses and receipts
+- [LumaBill Fiscal Years API](https://apis.io/apis/lumabill-ch/lumabill-ch-fiscal-years-api/) — Fiscal years and the year-end revaluation of foreign-currency positions
+- [LumaBill Invoices API](https://apis.io/apis/lumabill-ch/lumabill-ch-invoices-api/) — Create and manage outgoing invoices
+- [LumaBill Journal Entries API](https://apis.io/apis/lumabill-ch/lumabill-ch-journal-entries-api/) — Double-entry bookkeeping journal entries
+- [LumaBill Offers API](https://apis.io/apis/lumabill-ch/lumabill-ch-offers-api/) — Create and track quotes / offers sent to clients
+- [LumaBill Payments API](https://apis.io/apis/lumabill-ch/lumabill-ch-payments-api/) — Record payments against invoices
+- [LumaBill Profiles API](https://apis.io/apis/lumabill-ch/lumabill-ch-profiles-api/) — Read-only access to company profiles associated with your account
+- [LumaBill Recurring Invoices API](https://apis.io/apis/lumabill-ch/lumabill-ch-recurring-invoices-api/) — Scheduled invoices generated automatically at a set interval
+- [LumaBill Reports API](https://apis.io/apis/lumabill-ch/lumabill-ch-reports-api/) — Financial reports (P&L, Balance Sheet, VAT, Trial Balance)
+- [LumaBill Revenue API](https://apis.io/apis/lumabill-ch/lumabill-ch-revenue-api/) — Read-only view of received revenue records
+- [LumaBill Vendors API](https://apis.io/apis/lumabill-ch/lumabill-ch-vendors-api/) — Manage your supplier / vendor address book
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [LumaBill Agentic Access](https://apis.io/agentic-access/lumabill-ch/lumabill-ch-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BankTransaction](https://apis.io/schemas/lumabill-ch/lumabill-ch-bank-transaction/)
+- [BankTransactionUpdate](https://apis.io/schemas/lumabill-ch/lumabill-ch-bank-transaction-update/)
+- [InvoiceWrite](https://apis.io/schemas/lumabill-ch/lumabill-ch-invoice-write/)
+- [Profile](https://apis.io/schemas/lumabill-ch/lumabill-ch-profile/)
+- [ProfileUpdate](https://apis.io/schemas/lumabill-ch/lumabill-ch-profile-update/)
+- [RecurringInvoiceWrite](https://apis.io/schemas/lumabill-ch/lumabill-ch-recurring-invoice-write/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lumabill Ch Context](https://apis.io/jsonld/lumabill-ch/lumabill-ch-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [LumaBill API Rules](https://apis.io/rules/lumabill-ch/lumabill-ch-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [LumaBill Authentication](https://apis.io/security/lumabill-ch/lumabill-ch-authentication/)
+- [LumaBill Domain Security](https://apis.io/security/lumabill-ch/lumabill-ch-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [LumaBill Plans Pricing](https://apis.io/plans/lumabill-ch/lumabill-ch-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lumabill.ch/)
+- [Documentation](https://lumabill.ch/de/docs)
+- [Getting started](https://lumabill.ch/de/docs/getting-started)
+- [Pricing](https://lumabill.ch/de/vergleich)
+- [Sign up](https://lumabill.ch/de/signup)
+- [Blog](https://lumabill.ch/de/blog)
+- [Terms of service](https://lumabill.ch/de/terms)
+- [Privacy policy](https://lumabill.ch/de/privacy)
+
+## API Evangelist rating
+
+**Kin Score 50.6** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 59.1 |
+
+**Agent readiness 38.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lumabill-ch/](https://apis.io/providers/lumabill-ch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for LumaBill: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lumabill-ch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
